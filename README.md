@@ -1,8 +1,23 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ✨ Full Stack Chat App ✨
+
+---
+
+# Chat Arena
+
+---
+
+![My Image](./frontend/public/Banner.png)
 
 
+---
 
-Highlights:
+## 🚀 Live Demo
+
+🔗 [View Live Portfolio]()
+
+---
+
+## Highlights:
 
 - 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
 - 🎃 Authentication && Authorization with JWT
