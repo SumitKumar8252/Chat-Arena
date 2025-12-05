@@ -3,6 +3,8 @@ import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import cloudinary from "../lib/cloudinary.js";
 
+
+// sign up controller
 export const signup = async (req, res) => {
   const { fullName, email, password } = req.body;
   try {
@@ -47,6 +49,8 @@ export const signup = async (req, res) => {
   }
 };
 
+
+// login controller
 export const login = async (req, res) => {
   const { email, password } = req.body;
   try {
@@ -75,6 +79,8 @@ export const login = async (req, res) => {
   }
 };
 
+
+// logout controller
 export const logout = (req, res) => {
   try {
     res.cookie("jwt", "", { maxAge: 0 });
@@ -85,6 +91,8 @@ export const logout = (req, res) => {
   }
 };
 
+
+// update profile controller
 export const updateProfile = async (req, res) => {
   try {
     const { profilePic } = req.body;
@@ -108,6 +116,8 @@ export const updateProfile = async (req, res) => {
   }
 };
 
+
+// check auth controller
 export const checkAuth = (req, res) => {
   try {
     res.status(200).json(req.user);
