@@ -13,17 +13,29 @@
 
 ## 🚀 Live Demo
 
-🔗 [View Live Portfolio]()
+🔗 [View Live Portfolio]( https://chat-arena.onrender.com/ )
 
 ---
 
 ## Highlights:
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
+- Chat arena where you interact with user at real-time.
+- Authentication && Authorization with JWT
+- A huge collection of theme, UI.
+- Online user status
 
+---
+
+## Tech Stack
+
+- Javascript
+- React.js
+- MongoDB
+- Mongoose
+- Socket.io
+- JWT
+- Cloundinary
+- Tailwind + DasiyUI
 
 <!-- 
 ### Build the app
@@ -36,4 +48,8 @@ npm run build
 
 ```shell
 npm start
-``` -->
+``` 
+For genrate the JWT secret key
+cmd  -- openssl rand -base64 32
+
+-->
