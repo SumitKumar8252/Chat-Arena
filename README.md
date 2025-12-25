@@ -1,9 +1,11 @@
 # ✨ Full Stack Chat App ( Chat Arena )✨
 
----
 
 ![My Image](./frontend/public/Banner.png)
 
+---
+## About
+A modern and responsive Real-Time Chat Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js), featuring seamless messaging, secure user authentication, and live updates via Socket.io. Communicate instantly with a clean UI and a fast, efficient backend architecture.
 
 ---
 
@@ -32,6 +34,7 @@
 - JWT
 - Cloundinary
 - Tailwind + DasiyUI
+- Postman
 
 <!-- 
 ### Build the app
