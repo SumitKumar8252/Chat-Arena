@@ -1,8 +1,4 @@
-# ✨ Full Stack Chat App ✨
-
----
-
-# Chat Arena
+# ✨ Full Stack Chat App ( Chat Arena )✨
 
 ---
 
