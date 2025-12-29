@@ -18,7 +18,7 @@ A modern and responsive Real-Time Chat Application built using the MERN Stack (M
 ## Highlights:
 
 - Chat arena where you interact with user at real-time.
-- Authentication && Authorization with JWT
+- Authentication && Authorization with JWT.
 - A huge collection of theme, UI.
 - Online user status
 
